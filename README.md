@@ -3,7 +3,7 @@ Embedded Bot for Botpress
 
 <html>
   <head>
-    <img>  src= ![image](https://github.com/Aidminsolutions/AidminSolutions.github.io/assets/144367252/4e8cfb67-3cc0-4224-ab52-e0d6dda166da)
+    <img> ![image](https://github.com/Aidminsolutions/AidminSolutions.github.io/assets/144367252/4e8cfb67-3cc0-4224-ab52-e0d6dda166da)
     <title> "Aidmin Customer Service Bot" </title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
