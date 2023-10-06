@@ -49,7 +49,6 @@ Embedded Bot for Botpress
       }
     </style>
   </head>
- 
   <body>
     <div>
       <p style="text-align: center;">Botpress Chatbot in a <span><</span><span>div></span></p>
