@@ -4,10 +4,8 @@ Embedded Bot for Botpress
 <html>
   <head>
     <img>  src= ![image](https://github.com/Aidminsolutions/AidminSolutions.github.io/assets/144367252/4e8cfb67-3cc0-4224-ab52-e0d6dda166da)
-    
     <title> "Aidmin Customer Service Bot" </title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
- 
     <style>
       body {
         display: flex;
@@ -19,13 +17,12 @@ Embedded Bot for Botpress
         background-color: #000000;
         font-family: Arial, sans-serif;
       }
- 
       .center-div {
         width: 80vw;
         height: 80vh;
         background-color: rgb(102, 71, 255);
         border-radius: 15px;
-        padding: 5px;
+        padding: 10px;
         box-sizing: border-box;
         color: white;
         display: flex;
@@ -86,7 +83,7 @@ Embedded Bot for Botpress
                   
               });
             window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
-            </script></body>"
+            </script></body>
             width="100%"
             height="100%"
           ></iframe>
