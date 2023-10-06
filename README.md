@@ -51,7 +51,8 @@ Embedded Bot for Botpress
     </style>
   </head>
  
-  <body>
+  <body> {
+   
     <div>
       <p style="text-align: center;">Botpress Chatbot in a <span><</span><span>div></span></p>
       <div class="absolute inset-4 ">
@@ -85,7 +86,8 @@ Embedded Bot for Botpress
                   
               });
             window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
-            </script></body>"
+            </script></body>
+            }
             width="100%"
             height="100%"
           ></iframe>
