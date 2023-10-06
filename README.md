@@ -1,10 +1,10 @@
 # AidminSolutions.github.io
 Embedded Bot for Botpress
 
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Botpress in a div</title>
+    <img>https://1drv.ms/i/s!AlZjCd44kiXEgbtlHbg0PA0IxkGWfQ?e=AeP6SU</img>
+    <title>Aidmin Customer Service Bot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
  
     <style>
@@ -81,7 +81,7 @@ Embedded Bot for Botpress
                   'closeOnEscape': false,
                   'showConversationsButton': false,
                   'enableTranscriptDownload': false,
-                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/3fcd3e4e-d5bc-4bf5-8699-14b621b3ada2/v31782/style.css'
+                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/f4ce8ad4-0160-4b2d-9267-b181e5daba30/v58864/style.css'
                   
               });
             window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
