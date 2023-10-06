@@ -49,6 +49,7 @@ Embedded Bot for Botpress
       }
     </style>
   </head>
+  
   <body>
     <div>
       <p style="text-align: center;">Botpress Chatbot in a <span><</span><span>div></span></p>
@@ -56,7 +57,7 @@ Embedded Bot for Botpress
         <div
           class="center-div relative h-full w-full overflow-clip rounded-md border border-zinc-200 bg-white p-2 px-0 py-0"
         >
-          <iframe
+          <iframe>
             style="border: none;"
             srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
             <script>
@@ -83,10 +84,10 @@ Embedded Bot for Botpress
                   
               });
             window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
-            </script></body>"
+            </script></body>
             width="100%"
             height="100%"
-          ></iframe>
+          </iframe>
         </div>
       </div>
     </div>
