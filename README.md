@@ -21,7 +21,7 @@ Embedded Bot for Botpress
       }
  
       .center-div {
-        width: 70vw;
+        width: 80vw;
         height: 80vh;
         background-color: rgb(102, 71, 255);
         border-radius: 15px;
@@ -54,7 +54,7 @@ Embedded Bot for Botpress
  
   <body>
     <div>
-      <p style="text-align: center;">Botpress Chatbot in a <span><</span><span>div></span></p>
+      <p style="text-align: center;">Aidmin Solutions Chatbot</p>
       <div class="absolute inset-4 ">
         <div
           class="center-div relative h-full w-full overflow-clip rounded-md border border-zinc-200 bg-white p-2 px-0 py-0"
@@ -67,7 +67,7 @@ Embedded Bot for Botpress
                   'composerPlaceholder': 'Ask me anything',
                   'botConversationDescription': 'Aidmin Solutions 24/7 Support',
                   'botId': '1dd16d14-c423-43ee-942b-e810d8ab4565',
-                  'botName': 'Adam',
+                  'botName': 'Adam', 
                   'hostUrl': 'https://cdn.botpress.cloud/webchat/v0',
                   'messagingUrl': 'https://messaging.botpress.cloud',
                   'clientId': '1dd16d14-c423-43ee-942b-e810d8ab4565',
