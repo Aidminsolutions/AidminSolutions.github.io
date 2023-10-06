@@ -1,76 +1,72 @@
 AidminSolutions.github.io
 Embedded Bot for Botpress
 
-
-<title>Botpress in a div</title>
-    
-<style>
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    color: white;
-    background-color: #000000;
-    font-family: Arial, sans-serif;
-  }
-
-  .center-div {
-    width: 50vw;
-    height: 80vh;
-    background-color: rgb(102, 71, 255);
-    border-radius: 15px;
-    padding: 5px;
-    box-sizing: border-box;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .center-div {
-      height: 40vh;
-      width: 80vw;
-      background-color: rgb(102, 71, 255);
-      border-radius: 15px;
-      padding: 5px;
-      box-sizing: border-box;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-  }
-</style>
-
-    
-  
-
-  
-  
-    
-
-      
-Botpress Chatbot in a <div>
-
-
-      
-
-        
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Botpress in a div</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 10px;
+        color: white;
+        background-color: #000000;
+        font-family: Arial, sans-serif;
+      }
+ 
+      .center-div {
+        width: 70vw;
+        height: 80vh;
+        background-color: rgb(102, 71, 255);
+        border-radius: 15px;
+        padding: 5px;
+        box-sizing: border-box;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+ 
+      @media only screen and (max-width: 600px) {
+        .center-div {
+          height: 40vh;
+          width: 80vw;
+          background-color: rgb(102, 71, 255);
+          border-radius: 15px;
+          padding: 5px;
+          box-sizing: border-box;
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+ 
+  <body>
+    <div>
+      <p style="text-align: center;">Botpress Chatbot in a <span><</span><span>div></span></p>
+      <div class="absolute inset-4 ">
+        <div
+          class="center-div relative h-full w-full overflow-clip rounded-md border border-zinc-200 bg-white p-2 px-0 py-0"
+        >
           <iframe
             style="border: none;"
-            srcdoc="<script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
+            srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
             <script>
               window.botpressWebChat.init({
-                  'composerPlaceholder': 'Chat with bot',
+                  'composerPlaceholder': 'Ask me anything',
                   'botConversationDescription': 'Aidmin Solutions 24/7 Support',
-                  'botName': 'Adam',
                   'botId': '1dd16d14-c423-43ee-942b-e810d8ab4565',
+                  'botName': 'Adam',
                   'hostUrl': 'https://cdn.botpress.cloud/webchat/v0',
                   'messagingUrl': 'https://messaging.botpress.cloud',
                   'clientId': '1dd16d14-c423-43ee-942b-e810d8ab4565',
@@ -85,15 +81,16 @@ Botpress Chatbot in a <div>
                   'closeOnEscape': false,
                   'showConversationsButton': false,
                   'enableTranscriptDownload': false,
-                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/f4ce8ad4-0160-4b2d-9267-b181e5daba30/v97026/style.css'
-          });
-        window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
-        </script></body>"
-        width="100%"
-        height="100%"
-      ></iframe>
+                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/3fcd3e4e-d5bc-4bf5-8699-14b621b3ada2/v31782/style.css'
+                  
+              });
+            window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
+            </script></body>"
+            width="100%"
+            height="100%"
+          ></iframe>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
-<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  </body>
+</html>
