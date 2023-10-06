@@ -1,6 +1,5 @@
 # AidminSolutions.github.io
 Embedded Bot for Botpress
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,14 +12,14 @@ Embedded Bot for Botpress
         justify-content: center;
         align-items: center;
         height: 100vh;
-        margin: 10px;
+        margin: 0;
         color: white;
         background-color: #000000;
         font-family: Arial, sans-serif;
       }
  
       .center-div {
-        width: 60vw;
+        width: 50vw;
         height: 80vh;
         background-color: rgb(102, 71, 255);
         border-radius: 15px;
@@ -51,8 +50,7 @@ Embedded Bot for Botpress
     </style>
   </head>
  
-  <body> 
-   
+  <body>
     <div>
       <p style="text-align: center;">Botpress Chatbot in a <span><</span><span>div></span></p>
       <div class="absolute inset-4 ">
@@ -64,7 +62,7 @@ Embedded Bot for Botpress
             srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
             <script>
               window.botpressWebChat.init({
-                  'composerPlaceholder': 'Say anything',
+                  'composerPlaceholder': 'Say anything to me',
                   'botConversationDescription': 'Aidmin Solutions 24/7 Support',
                   'botName': 'Adam',
                   'botId': '1dd16d14-c423-43ee-942b-e810d8ab4565',
@@ -82,11 +80,11 @@ Embedded Bot for Botpress
                   'closeOnEscape': false,
                   'showConversationsButton': false,
                   'enableTranscriptDownload': false,
-                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/f4ce8ad4-0160-4b2d-9267-b181e5daba30/v58864/style.css'
+                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/f4ce8ad4-0160-4b2d-9267-b181e5daba30/v99981/style.css'
                   
               });
             window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
-            </script></body>
+            </script></body>"
             width="100%"
             height="100%"
           ></iframe>
