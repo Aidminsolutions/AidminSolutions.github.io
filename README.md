@@ -3,7 +3,7 @@ Embedded Bot for Botpress
 
 <html>
   <head>
-    <img>https://1drv.ms/i/s!AlZjCd44kiXEgbtlHbg0PA0IxkGWfQ?e=AeP6SU</img>
+    <img>https://1drv.ms/i/s!AlZjCd44kiXEgbtlHbg0PA0IxkGWfQ?e=AeP6SU
     <title>Aidmin Customer Service Bot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
  
