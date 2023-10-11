@@ -2,6 +2,7 @@ AidminSolutions.github.io
 Embedded Bot for Botpress
 
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>Botpress in a div</title>
